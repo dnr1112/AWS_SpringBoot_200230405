@@ -5,9 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.web.study.domain.entity.Instructor;
 import com.web.study.dto.request.instructor.InstructorReqDto;
-import com.web.study.dto.request.student.StudentReqDto;
 import com.web.study.dto.response.InstructorRespDto;
 import com.web.study.repository.InstructorRepository;
 

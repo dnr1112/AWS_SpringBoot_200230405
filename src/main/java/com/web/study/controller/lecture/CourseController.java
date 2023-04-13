@@ -1,8 +1,5 @@
 package com.web.study.controller.lecture;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import javax.validation.Valid;
 
 import org.springframework.http.ResponseEntity;
@@ -19,7 +16,6 @@ import com.web.study.dto.DataResponseDto;
 import com.web.study.dto.ResponseDto;
 import com.web.study.dto.request.course.CourseReqDto;
 import com.web.study.dto.request.course.SearchCourseReqDto;
-import com.web.study.exception.CustomException;
 import com.web.study.service.CourseService;
 
 import lombok.RequiredArgsConstructor;

@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.web.study.IocAndDi.IocTest;
 import com.web.study.IocAndDi.IocTest2;
 
-import lombok.RequiredArgsConstructor;
-
 @RestController
 //@RequiredArgsConstructor
 public class IoCTestController {
