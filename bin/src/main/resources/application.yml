@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lecture
+    username: root
+    password: root
+
+mybatis:
+  type-aliases-package: com.web.study.domain.entity
+  mapper-locations:
+    - /mappers/*.xml
+    
+jwt:
+  secretKey: B422292D7BD6C1CC51AAC73B49DF2B422292D7BD6C1CC51AAC73B49DF2
